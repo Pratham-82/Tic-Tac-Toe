@@ -9,9 +9,12 @@ body{
     background-color: #548687;
  
 }
+h1{
+    margin:20px;
+}
 
 .container{
-    height: 70vh;
+    height: 80vh;
     /* width: 70vh; */
     display: flex;
     justify-content: center;
@@ -20,8 +23,8 @@ body{
 }
 .game{
     /* margin: 10vmin; */
-    height: 60vmin;
-    width: 60vmin; 
+    height: 70vmin;
+    width: 70vmin; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,8 +32,8 @@ body{
     gap: 2vmin;
 }
 .box{
-    height: 18vmin;
-    width: 18vmin;
+    height: 20vmin;
+    width: 20vmin;
     border-radius: 1rem;
     border: none; 
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
