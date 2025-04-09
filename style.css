@@ -10,7 +10,8 @@ body{
  
 }
 h1{
-    margin:20px;
+    padding: 10px;
+    font-size: 3rem;
 }
 
 .container{
