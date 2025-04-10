@@ -60,3 +60,11 @@ resBtn.addEventListener('click',()=>{
         winName.innerText = '';
     })
 })
+
+function playAudio(){
+    const sound = document.querySelector('#sound');
+    sound.play();
+}
+boxes.forEach((box)=>{
+    box.addEventListener('click', playAudio);
+})
